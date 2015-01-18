@@ -8,7 +8,7 @@ class EndecaRecord
 		@record_attributes = {}
 	end
 
-	def to_json
+	def to_json		
 		{'record_id' => @record_id, 'attributes' => @record_attributes}.to_json
 	end
 end
