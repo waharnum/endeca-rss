@@ -31,8 +31,4 @@ class EndecaSearch
 			end			
 	end
 
-	# def to_json
-	#	{'endeca_query' => @endeca_query, 'endeca_records' => @endeca_records}.to_json
-	# end	
-
 end
