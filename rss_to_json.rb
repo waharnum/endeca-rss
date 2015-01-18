@@ -4,6 +4,7 @@
 require 'nokogiri'
 require 'open-uri'
 require './endeca_record'
+require './endeca_search'
 
 def get_rss_url(domain, endeca_query_string)
 	return "http://#{domain}.torontopubliclibrary.ca/rss.jsp?#{endeca_query_string}"	
