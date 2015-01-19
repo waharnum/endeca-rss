@@ -9,8 +9,6 @@ require './endeca_search'
 
 Rabl.register!
 
-# set :bind, '104.131.20.49'
-
 get '/search' do   
 	@endeca_search = EndecaSearch.new(request.query_string)	
 	rabl :endeca_search, :format => "json"  	
